@@ -11,10 +11,10 @@ class Person:
         self._name= name # para coregir error poner ""
         self._age= age
         
-    def get_age(self):
+    def get_age(self): # get = obtener
         return self._age
     
-    def set_age(self,new_age):
+    def set_age(self,new_age): #set = establecer 
         if isinstance(new_age, int) & new_age > 0 & new_age < 120:
             self._age= new_age 
             
